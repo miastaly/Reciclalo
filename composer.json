@@ -1,0 +1,22 @@
+{
+    "name": "lenovo/htdocs",
+    "authors": [
+        {
+            "name": "asdas",
+            "email": "asdas@hotmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\":[
+                "../modelos/User/Class"
+            ]
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    }
+}
