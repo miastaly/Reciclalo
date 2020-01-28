@@ -132,28 +132,13 @@
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown" style="font-weight: bold;" >Algunas Leyes a tener en cuenta</h2>
-                <p class="text-center wow fadeInDown">Ley de Gestión Integral de Residuos Sólidos</p>
-            </div>
-
-            <div class="row">
-                
-
-                <div class="col-sm-6 wow fadeInRight">
-                    <h3 class="column-title">Misión</h3>
-                    <p>Facilitar servicios de acopio,  reciclaje y manejo apropiado de los residuos contaminantes (aceites, papel y otros residuos sólidos) producidos en hogares, restaurantes, empresas de las ciudades peruanas.</p>
-                    <br>
-
-
-                    <h3 class="column-title">Visión</h3>
-                    <p>Ser la empresa peruana líder en servicios de acopio, procesamiento y reciclaje de residuos contaminantes líquidos y sólidos, orientado a reducir las fuentes de contaminación de los ríos, lagos, bosques y ciudades peruanas.</p>
-
-                    <!--h3 class="column-title">Objetivos</h3>
-                    <p>Nuestra empresa contribuye a crear conciencia en las personas acerca del daño que genera el aceite de cocina usado (ACU), en el ambiente y en la salud de la población, además de prevenir y reducir la contaminación en los cuerpos de agua a través del reciclaje y la revalorización de esta, elaborando productos ecológicos de uso doméstico, motivando así al reciclaje de este residuo mediante el desarrollo de talleres en comunidades aledañas e instituciones públicas y privadas.</p-->
-
-                </div>
-                <div class="col-sm-6 wow fadeInLeft" style="">
-                    <img class="img-responsive" src="images/recicalo_vaso.jpeg" style="border-radius: 2.5%; max-height: 320px;margin-left: auto; margin-right: auto;display: block;">
-                </div>
+                <p style="text-align: justify;">De acuerdo a la Norma Técnica Peruana NTP N°900.050:2001 "Gestión Ambiental/Manejo de Aceites Usados /Generalidades”; el concepto de aceite usado es lo siguiente: “Todo aceite con base mineral o sintética que debido a su uso se encuentre contaminado con impurezas físicas o químicas y no puede ser utilizado para el fin con el que fue producido inicialmente"</p>
+                <p style="text-align: justify;">Que, mediante la Norma Técnica Peruana NTP N°900.050:2002 se instituye los procedimientos para el Manejo de Aceites usados; asimismo, mediante la Norma Técnica Peruana NTP N°900.051:2001 se establecen las formas Manejo de Aceites usados para la etapa de recolección y almacenamiento.
+                </p>
+                <p style="text-align: justify;">Que, el aceite usado, de origen mineral o sintético, tiene entre sus componentes diversos elementos contaminantes como el aluminio, plomo, cadmio, fosforo y azufre, que originalmente ayudan al aceite en su estabilidad, resistencia a la temperatura, durabilidad y otras características típicas de los aceites lubricantes, dieléctricos e hidráulicos.</p>
+                <h3>Plan Nacional de Gestión Integral de Residuos Sólidos 2016-2024</h3>
+                <h4>Recolección, transporte y disposición final</h4>
+                <p style="text-align: justify;">Según información provista por los gobiernos locales mediante la plataforma SIGERSOL, se tiene una cobertura de 93.74% de la población urbana con sistema de recolección de residuos sólidos. Sin embargo, solo 3309712 toneladas, es decir, menos del 50% fueron dispuestos en un relleno sanitario, tal como dicta la normativa vigente; dejando al restante de residuos solidos dispuestos inadecuadamente en botaderos u otras instalaciones de disposición final. Esto demuestra que, aun brindándose una inadecuada cobertura en el servicio de limpieza pública, estos carecen de un impacto real positivo en la población y el ambiente, si al final del ciclo del manejo de estos residuos, se desecha sin ningún control afectando a la salud de la población e impactando negativamente al entorno.</p>
             </div>
         </div>
     </section><!--/#about-->
@@ -421,9 +406,11 @@
                 <p class="text-center wow fadeInDown">Nuestros productos son biodegradables por lo cual no interfieren en los procesos del medio ambiente, entre los productos que ofrecemos están: </p>
             </div>
 
-            <div class="row" id="vue_productos">
-                <item-producto v-for="item in list_productos" :producto="item"/>
-            </div>
+            <div id="vue_productos" class="row"><div class="col-sm-6 row wow fadeInRight animated animated animated" style="visibility: visible;"><div class="col-sm-6"><div class="thumbnail"><img src="./Recíclalo.pe_files/jabon.JPG" alt="Jabones"></div></div> <div class="col-sm-6"><h3 class="column-title">Jabones</h3> <p>Nuestros jabones son productos biodegradables, los cuales pueden ser utilizados para lavar trastes, utensilios de cocina, etc.</p></div></div><div class="col-sm-6 row wow fadeInRight animated animated animated" style="visibility: visible;"><div class="col-sm-6"><div class="thumbnail"><img src="./Recíclalo.pe_files/detergente_en_polvo.JPG" alt="Detergente en polvo"></div></div> <div class="col-sm-6"><h3 class="column-title">Detergente en polvo</h3> <p>Este producto  hecho con el aceite usado para freir (85%) y vinagre (15%)   ayudara a previene los hongos en la madera.
+        A ser aceite y vinagre, supongo que no será tóxico y por tanto servirá para proteger jaulas 
+        </p></div></div><div class="col-sm-6 row wow fadeInRight animated animated" style="visibility: hidden; animation-name: none;"><div class="col-sm-6"><div class="thumbnail"><img src="./Recíclalo.pe_files/jabon_liquido.jpg" alt="Jabón líquido"></div></div> <div class="col-sm-6"><h3 class="column-title">Jabón líquido</h3> <p>Se puede emplear en el lavado de ropa mientras se utiliza lavadora.</p></div></div><div class="col-sm-6 row wow fadeInRight animated animated" style="visibility: hidden; animation-name: none;"><div class="col-sm-6"><div class="thumbnail"><img src="./Recíclalo.pe_files/biodiesel.jpg" alt="Biocombustible"></div></div> <div class="col-sm-6"><h3 class="column-title">Biocombustible</h3> <p>Es producido a partir de aceites y grasas de origen animal o vegetal. Al transformar el aceite usado en biocombustible, se estaría evitando la quema de combustibles fósiles a base de petróleo o gas.</p></div></div><div class="col-sm-6 row wow fadeInRight animated animated" style="visibility: hidden; animation-name: none;"><div class="col-sm-6"><div class="thumbnail"><img src="./Recíclalo.pe_files/barniz.jpg" alt="Barniz"></div></div> <div class="col-sm-6"><h3 class="column-title">Barniz</h3> <p>Este producto  hecho con el aceite usado para freir (85%) y vinagre (15%)   ayudara a previene los hongos en la madera.
+        A ser aceite y vinagre, supongo que no será tóxico y por tanto servirá para proteger jaulas 
+        </p></div></div><div class="col-sm-6 row wow fadeInRight animated animated" style="visibility: hidden; animation-name: none;"><div class="col-sm-6"><div class="thumbnail"><img src="./Recíclalo.pe_files/pintura-de-aceite.jpg" alt="Pintura"></div></div> <div class="col-sm-6"><h3 class="column-title">Pintura</h3> <p>Este producto elaborado con nuestra materia prima principal y otros compuestos, puede ser usado para realizar el pintado de sus paredes y al mismo tiempo, estarás contribuyendo a la disminución de la contaminacion en el planeta.</p></div></div></div>
 
            
 
